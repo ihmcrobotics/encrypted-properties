@@ -8,6 +8,9 @@ buildscript {
    }
 }
 apply plugin: "us.ihmc.ihmc-build"
+apply plugin: "application"
+
+mainClassName = "us.ihmc.encryptedProperties.EncryptedPropertyAdder"
 
 ihmc {
    group = "us.ihmc"
