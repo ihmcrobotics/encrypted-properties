@@ -1,6 +1,13 @@
 # Encrypted Properties
 
-Load and store encrypted values from .properties files from JVM.
+[ ![Download](https://api.bintray.com/packages/ihmcrobotics/maven-release/encrypted-properties/images/download.svg) ](https://bintray.com/ihmcrobotics/maven-release/encrypted-properties/_latestVersion)
+
+Load and store encrypted values from .properties files from Java.
+
+To use, add the following to your `build.gradle`:
+```groovy
+compile group: "us.ihmc", name: "encrypted-properties", version: "0.1.0"
+```
 
 ### Loading properties
 
