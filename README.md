@@ -45,4 +45,5 @@ $ cd /opt/ihmc
 $ curl -skL https://github.com/ihmcrobotics/encrypted-properties/releases/download/0.1.0/encrypted-properties-0.1.0.zip -o encrypted-properties.zip
 $ unzip encrypted-properties.zip
 $ rm -r encrypted-properties.zip
+$ chmod +x encrypted-properties/bin/encrypted-properties
 ```
